@@ -37,13 +37,13 @@ public data class HeartSwitchColors(
 )
 
 /**
- * Heart-shaped switch. Similar oto the Material implementation. Doesn't have a ripple.
+ * Heart-shaped switch. Similar to the Material implementation. Doesn't have a ripple.
  *
  * @param checked whether or not this component is checked
  * @param onCheckedChange callback to be invoked when [HeartSwitch] is being clicked,
  * therefore the change of checked state is requested.  If null, then this is passive
  * and relies entirely on a higher-level component to control the "checked" state.
- * @param modifier Modifier to be applied to the [HeartSwitch] layout
+ * @param modifier to be applied to the [HeartSwitch] layout
  * @param colors [HeartSwitchColors] that will be used to determine the color of the thumb and track
  * in different states
  * @param width of the [HeartSwitch]. Height will be determined by [HeartSwitch] automatically.
@@ -56,7 +56,7 @@ public data class HeartSwitchColors(
  * @param interactionSource the [MutableInteractionSource] representing the stream of
  * [Interaction]s for this [HeartSwitch]. You can create and pass in your own remembered
  * [MutableInteractionSource] if you want to observe [Interaction]s and customize the
- * appearance / behavior of this Switch in different [Interaction]s.
+ * appearance / behavior of this [HeartSwitch] in different [Interaction]s.
  */
 @Composable
 public fun HeartSwitch(

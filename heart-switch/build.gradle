@@ -56,7 +56,6 @@ afterEvaluate {
                 groupId = 'com.popovanton0.heartswitch'
                 artifactId = 'heart-switch'
                 version = '1.0.0-beta01'
-
             }
         }
     }
