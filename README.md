@@ -29,7 +29,7 @@ dependencies {
 
 ## Usage
 
-Examples are in the [source code](https://github.com/popovanton0/heart-switch/blob/main/app/src/main/java/com/popovanton0/heartswitch/MainActivity.kt).
+Examples are in the [source code](https://github.com/popovanton0/heart-switch/blob/main/app/src/main/java/com/popovanton0/heartswitch/demo/MainActivity.kt).
 
 ### Basic
 
