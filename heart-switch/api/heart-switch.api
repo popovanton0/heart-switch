@@ -1,0 +1,52 @@
+public final class com/popovanton0/heartswitch/BuildConfig {
+	public static final field BUILD_TYPE Ljava/lang/String;
+	public static final field DEBUG Z
+	public static final field LIBRARY_PACKAGE_NAME Ljava/lang/String;
+	public fun <init> ()V
+}
+
+public final class com/popovanton0/heartswitch/ComposableSingletons$HeartSwitchKt {
+	public static final field INSTANCE Lcom/popovanton0/heartswitch/ComposableSingletons$HeartSwitchKt;
+	public static field lambda-1 Lkotlin/jvm/functions/Function4;
+	public fun <init> ()V
+	public final fun getLambda-1$heart_switch_release ()Lkotlin/jvm/functions/Function4;
+}
+
+public final class com/popovanton0/heartswitch/HeartShape : androidx/compose/ui/graphics/Shape {
+	public static final field Companion Lcom/popovanton0/heartswitch/HeartShape$Companion;
+	public synthetic fun <init> (JJLkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public fun createOutline-Pq9zytI (JLandroidx/compose/ui/unit/LayoutDirection;Landroidx/compose/ui/unit/Density;)Landroidx/compose/ui/graphics/Outline;
+	public fun equals (Ljava/lang/Object;)Z
+	public fun hashCode ()I
+}
+
+public final class com/popovanton0/heartswitch/HeartShape$Companion {
+	public final fun invoke ()Lcom/popovanton0/heartswitch/HeartShape;
+}
+
+public final class com/popovanton0/heartswitch/HeartSwitchColors {
+	public synthetic fun <init> (JJJJJJILkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public synthetic fun <init> (JJJJJJLkotlin/jvm/internal/DefaultConstructorMarker;)V
+	public final fun component1-0d7_KjU ()J
+	public final fun component2-0d7_KjU ()J
+	public final fun component3-0d7_KjU ()J
+	public final fun component4-0d7_KjU ()J
+	public final fun component5-0d7_KjU ()J
+	public final fun component6-0d7_KjU ()J
+	public final fun copy-tNS2XkQ (JJJJJJ)Lcom/popovanton0/heartswitch/HeartSwitchColors;
+	public static synthetic fun copy-tNS2XkQ$default (Lcom/popovanton0/heartswitch/HeartSwitchColors;JJJJJJILjava/lang/Object;)Lcom/popovanton0/heartswitch/HeartSwitchColors;
+	public fun equals (Ljava/lang/Object;)Z
+	public final fun getCheckedThumbColor-0d7_KjU ()J
+	public final fun getCheckedTrackBorderColor-0d7_KjU ()J
+	public final fun getCheckedTrackColor-0d7_KjU ()J
+	public final fun getUncheckedThumbColor-0d7_KjU ()J
+	public final fun getUncheckedTrackBorderColor-0d7_KjU ()J
+	public final fun getUncheckedTrackColor-0d7_KjU ()J
+	public fun hashCode ()I
+	public fun toString ()Ljava/lang/String;
+}
+
+public final class com/popovanton0/heartswitch/HeartSwitchKt {
+	public static final fun HeartSwitch-Bvae7ek (ZLkotlin/jvm/functions/Function1;Landroidx/compose/ui/Modifier;Lcom/popovanton0/heartswitch/HeartSwitchColors;FFLandroidx/compose/animation/core/AnimationSpec;Landroidx/compose/animation/core/AnimationSpec;Lkotlin/jvm/functions/Function4;ZLandroidx/compose/foundation/interaction/MutableInteractionSource;Landroidx/compose/runtime/Composer;III)V
+}
+
