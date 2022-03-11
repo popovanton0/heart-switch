@@ -58,7 +58,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.popovanton0.heartswitch'
                 artifactId = 'heart-switch'
-                version = '1.0.0-beta02'
+                version = '1.0.0'
             }
         }
     }
