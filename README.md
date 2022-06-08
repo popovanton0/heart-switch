@@ -10,6 +10,7 @@
 ## Getting Started
 
 [![Release](https://jitpack.io/v/popovanton0/heart-switch.svg)](https://jitpack.io/#popovanton0/heart-switch)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 
 Add the following code to your project's _root_ `build.gradle` file:
 
