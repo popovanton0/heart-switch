@@ -11,6 +11,7 @@
 
 [![Release](https://jitpack.io/v/popovanton0/heart-switch.svg)](https://jitpack.io/#popovanton0/heart-switch)
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![Compatible with Compose — 1.1.1](https://img.shields.io/badge/Compatible%20with%20Compose-1.1.1-brightgreen)](https://developer.android.com/jetpack/androidx/releases/compose-foundation#1.1.1)
 
 Add the following code to your project's _root_ `build.gradle` file:
 
