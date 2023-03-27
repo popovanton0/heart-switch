@@ -13,6 +13,7 @@ public final class com/popovanton0/heartswitch/ComposableSingletons$HeartSwitchK
 }
 
 public final class com/popovanton0/heartswitch/HeartShape : androidx/compose/ui/graphics/Shape {
+	public static final field $stable I
 	public static final field Companion Lcom/popovanton0/heartswitch/HeartShape$Companion;
 	public synthetic fun <init> (JJLkotlin/jvm/internal/DefaultConstructorMarker;)V
 	public fun createOutline-Pq9zytI (JLandroidx/compose/ui/unit/LayoutDirection;Landroidx/compose/ui/unit/Density;)Landroidx/compose/ui/graphics/Outline;
@@ -25,6 +26,7 @@ public final class com/popovanton0/heartswitch/HeartShape$Companion {
 }
 
 public final class com/popovanton0/heartswitch/HeartSwitchColors {
+	public static final field $stable I
 	public synthetic fun <init> (JJJJJJILkotlin/jvm/internal/DefaultConstructorMarker;)V
 	public synthetic fun <init> (JJJJJJLkotlin/jvm/internal/DefaultConstructorMarker;)V
 	public final fun component1-0d7_KjU ()J
