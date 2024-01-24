@@ -10,7 +10,6 @@ android {
 
     defaultConfig {
         minSdk 21
-        targetSdk 34
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -59,7 +58,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.popovanton0.heartswitch'
                 artifactId = 'heart-switch'
-                version = '1.4.0'
+                version = '1.5.0'
             }
         }
     }
