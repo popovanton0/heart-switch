@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.library'
     id 'org.jetbrains.kotlin.android'
+    id 'org.jetbrains.kotlin.plugin.compose' version "2.0.21"
     id 'org.jetbrains.kotlinx.binary-compatibility-validator'
     id 'maven-publish'
 }
@@ -32,9 +33,6 @@ android {
     buildFeatures {
         compose true
     }
-    composeOptions {
-        kotlinCompilerExtensionVersion compose_compiler_version
-    }
     namespace 'com.popovanton0.heartswitch'
 }
 
@@ -45,8 +43,8 @@ dependencies {
     debugImplementation "androidx.compose.ui:ui-tooling:$compose_version"
 
     testImplementation 'junit:junit:4.13.2'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    androidTestImplementation 'androidx.test.ext:junit:1.2.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
 }
 
 assemble.dependsOn check
@@ -58,7 +56,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.popovanton0.heartswitch'
                 artifactId = 'heart-switch'
-                version = '1.5.0'
+                version = '1.6.0'
             }
         }
     }

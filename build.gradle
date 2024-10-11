@@ -1,15 +1,15 @@
 buildscript {
     ext {
-        compose_version = '1.6.0'
-        compose_compiler_version = '1.5.8'
+        compose_version = '1.7.3'
+        compose_compiler_version = '1.5.14'
     }
 }
 
 plugins {
-    id 'com.android.application' version '8.2.2' apply false
-    id 'com.android.library' version '8.2.2' apply false
-    id 'org.jetbrains.kotlin.android' version '1.9.22' apply false
-    id 'org.jetbrains.kotlinx.binary-compatibility-validator' version '0.13.2' apply false
+    id 'com.android.application' version '8.6.1' apply false
+    id 'com.android.library' version '8.6.1' apply false
+    id 'org.jetbrains.kotlin.android' version '2.0.21' apply false
+    id 'org.jetbrains.kotlinx.binary-compatibility-validator' version '0.16.3' apply false
 }
 
 tasks.register('clean', Delete) {
